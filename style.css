@@ -34,50 +34,6 @@ nav{
     background-color: #ffffff6b;
 }
 
-/* media queries for small screen */
-@media(max-width: 1000px){
-    #logo img{
-        width: 70px;
-        height: 70px;
-        padding-right: 30px;
-    }
-    .anchor-tags{
-        padding-right: 50px;
-    }
-    .anchor-tags a{
-        padding: 10px 10px;
-    }
-}
-/* tabs */
-@media(max-width: 780px){
-    #logo img{
-        width: 60px;
-        height: 60px;
-        padding-right: 20px;
-    }
-    .anchor-tags{
-        padding-right: 40px;
-    }
-    .anchor-tags a{
-        font-size: 2.7vh;
-        padding: 5px 5px;
-    }
-}
-/* mobile phones */
-@media(max-width: 420px){
-    #logo img{
-        width: 50px;
-        height: 50px;
-        padding-right: 10px;
-    }
-    .anchor-tags{
-        padding-right: 30px;
-    }
-    .anchor-tags a{
-        font-size: 1.7vh;
-        padding: 5px 5px;
-    }
-}
 /* home */
 .home{
     display: flex;
@@ -88,14 +44,14 @@ nav{
     font-size: large;
 }
 .home-heading h1{
-    font-size: 45px;
+    font-size: 55px;
 }
 h1 em{
-    font-size: 60px;
+    font-size: 80px;
     font-style: normal;
 }
 .home-heading p{
-    padding: 5px 0;
+    padding: 5px 10px;
 }
 .home-heading button{
     color: rgb(75, 38, 20);
@@ -115,7 +71,7 @@ h1 em{
 }
 .home-img{
     width: 400px;
-    padding-right: 100px;
+    padding-right: 70px;
 }
 .home-img{
     position: relative;
@@ -125,3 +81,150 @@ h1 em{
     from {right: 0px }
     to {right: 100px};
 }
+
+/* media queries for small screen */
+@media(max-width: 1000px){
+    #logo img{
+        width: 70px;
+        height: 70px;
+        padding-right: 30px;
+    }
+    .anchor-tags{
+        padding-right: 50px;
+    }
+    .anchor-tags a{
+        padding: 10px 10px;
+    }
+    /* home */
+    .home-heading{
+        padding: 150px 50px;
+    }
+    .home-heading h1{
+    font-size: 45px;
+    }
+    h1 em{
+        font-size: 70px;
+    }
+    .home-heading p{
+        padding: 5px 8px;
+    }
+    .home-heading button{
+        padding: 8px;
+        margin-top: 8px;
+    }
+    .side-img{
+        margin-top: -50px;
+        margin-left: -60px;
+    }
+    .side-img img{
+        width: 300px;
+    }
+    .home-img{
+        width: 300px;
+    }
+    @keyframes move{
+        from {right: 0px }
+        to {right: 50px};
+    }
+}
+/* tabs */
+@media(max-width: 780px){
+    #logo img{
+        width: 60px;
+        height: 60px;
+        padding-right: 20px;
+    }
+    .anchor-tags{
+        padding-right: 40px;
+    }
+    .anchor-tags a{
+        font-size: 2.7vh;
+        padding: 5px 5px;
+    }
+     /* home */
+     .home-heading{
+        padding: 90px 60px;
+    }
+    .home-heading h1{
+    font-size: 30px;
+    }
+    h1 em{
+        font-size: 60px;
+    }
+    .home-heading p{
+        font-size: 15px;
+    }
+    .home-heading button{
+        padding: 7px;
+        margin-top: 7px;
+    }
+    .home-img img{
+        width: 300px;
+    }
+    .side-img{
+        margin-top: -40px;
+        margin-left: -60px;
+    }
+    .side-img img{
+        width: 250px;
+    }
+    .home-img{
+        width: 250px;
+    }
+    @keyframes move{
+        from {right: 0px }
+        to {right: 5%};
+    }
+}
+/* mobile phones */
+@media(max-width: 420px){
+    #logo img{
+        width: 50px;
+        height: 50px;
+        padding-right: 10px;
+    }
+    .anchor-tags{
+        padding-right: 30px;
+    }
+    .anchor-tags a{
+        font-size: 1.7vh;
+        padding: 5px 5px;
+    }
+    /* home */
+    .home-heading{
+        padding: 40px 15px;
+    }
+    .home-heading h1{
+    font-size: 15px;
+    }
+    h1 em{
+        font-size: 30px;
+    }
+    .home-heading p{
+        font-size: 10px;
+    }
+    .home-heading button{
+        padding: 4px;
+        margin-top: 4px;
+    }
+    .home-img img{
+        width: 150px;
+    }
+    .side-img{
+        margin-top: -30px;
+        margin-left: -20px;
+    }
+    .side-img img{
+        width: 150px;
+    }
+    .home-img{
+        width: 100px;
+    }
+    @keyframes move{
+        from {right: 0px }
+        to {right: 5%};
+    }
+}
+
+
+
