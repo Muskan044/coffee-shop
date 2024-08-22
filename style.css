@@ -121,7 +121,24 @@ h1 em{
     font-size: 13px;
     padding: 5px;
 }
-
+/* img with paragraph */
+.img-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 40px;
+    margin-top: 30px;
+}
+.img-text img{
+    width: 400px;
+    margin-right: 40px;
+}
+.img-text p{
+    font-size: x-large;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: justify;
+}
 
 
 /* media queries for small screen */
