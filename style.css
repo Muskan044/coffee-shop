@@ -207,6 +207,19 @@ h1 em{
         font-size: 13px;
         padding: 5px;
     }
+    /* img with paragraph */
+    .img-text{
+        padding: 40px 10px;
+        margin-top: 30px;
+    }
+    .img-text img{
+        width: 33%;
+    }
+    .img-text p{
+        padding: 10px 20px;
+        font-size: 2.6vh;
+        font-weight: 450px;
+    }
 }
 /* tabs */
 @media(max-width: 780px){
@@ -278,6 +291,19 @@ h1 em{
     .coffee-cup p{
         font-size: 1.7vh;
         padding: 5px;
+    }
+     /* img with paragraph */
+     .img-text{
+        padding: 40px 0;
+        margin-top: 30px;
+    }
+    .img-text img{
+        width: 30%;
+    }
+    .img-text p{
+        padding: 0 20px;
+        font-size: 2vh;
+        font-weight: 4px;
     }
 }
 /* mobile phones */
@@ -352,6 +378,25 @@ h1 em{
     .coffee-cup p{
         
         padding: 10px;
+    }
+     /* img with paragraph */
+     .img-text{
+        display: grid;
+        margin-bottom: 60px;
+        padding: 0;
+        margin: 0;
+    }
+    .img-text img{
+        width: 140px;
+        display: block;
+        margin: 0 auto;
+    }
+    .img-text p{
+        font-size: 2.6vh;
+        font-weight: 300px;
+        margin-right: 0;
+        text-align: justify;
+        padding-top: 20px;
     }
 }
 
