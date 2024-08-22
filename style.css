@@ -250,6 +250,14 @@ h1 em{
         font-size: 2.6vh;
         font-weight: 450px;
     }
+    /* cold coffee */
+    .cold-coffee-cup{
+        width: 180px;
+        height: 260px;
+    }
+    .cold-coffee-cup h4{
+        font-size: 2.2vh;
+    }
 }
 /* tabs */
 @media(max-width: 780px){
@@ -335,6 +343,25 @@ h1 em{
         font-size: 2vh;
         font-weight: 4px;
     }
+     /* cold coffee */
+     .cold-coffee-container{
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 50px;
+        top: 30px;
+        gap: 30px;
+    }
+    .cold-coffee-cup{
+        width: 220px;
+        height: 255px;
+    }
+    .cold-coffee-container img{
+        padding: 30px 40px;
+        width: 100px;
+        height: 150px;
+    }
 }
 /* mobile phones */
 @media(max-width: 420px){
@@ -391,6 +418,7 @@ h1 em{
         gap: 30px;
         margin-top: 30px;
         margin-bottom: 70px;
+        
     }
     .coffee-container .coffee-cup{
         width: 250px;
@@ -427,6 +455,27 @@ h1 em{
         margin-right: 0;
         text-align: justify;
         padding-top: 20px;
+    }
+     /* cold coffee */
+     .cold-coffee-container{
+        display: grid;
+        grid-template-columns: 65%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+        gap: 30px;
+     }
+     .cold-coffee-cup{
+        width: 220px;
+        height: 250px;
+    }
+    .cold-coffee-cup img{
+        padding: 30px 40px;
+        width: 100px;
+        height: 150px;
+    }
+    .cold-coffee-cup h4{
+        font-size: 2.2vh;
     }
 }
 
