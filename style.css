@@ -191,6 +191,13 @@ h1 em{
 .beans-container p{
     margin-top: -150px;
 }
+#heading{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-decoration: underline;
+    font-size: 30px;
+}
 
 
 /* media queries for small screen */
@@ -279,6 +286,27 @@ h1 em{
     }
     .cold-coffee-cup h4{
         font-size: 2.2vh;
+    }
+    /* beans */
+    .beans-container{
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .beans-container div{
+        width: 250px;
+        height: 250px;
+    }
+    .beans-container img{
+        position: relative;
+        top: -150px;
+        width: 40px;
+    }
+    .beans-container p{
+        margin-top: -180px;
+        font-size: 25px;
     }
 }
 /* tabs */
@@ -384,6 +412,25 @@ h1 em{
         width: 100px;
         height: 150px;
     }
+        /* beans */
+        .beans-container{
+            display: grid;
+            grid-template-columns: 30% 30%;
+
+        }
+        .beans-container div{
+            width: 220px;
+            height: 220px;
+        }
+        .beans-container img{
+            position: relative;
+            top: -150px;
+            width: 220px;
+        }
+        .beans-container p{
+            margin-top: -180px;
+            font-size: 25px;
+        }
 }
 /* mobile phones */
 @media(max-width: 420px){
@@ -499,6 +546,28 @@ h1 em{
     .cold-coffee-cup h4{
         font-size: 2.2vh;
     }
+        /* beans */
+        .beans-container{
+            display: grid;
+            grid-template-columns: 70%;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            margin-top: 20px;
+        }
+        .beans-container div{
+            width: 250px;
+            height: 250px;
+        }
+        .beans-container img{
+            position: relative;
+            top: -150px;
+            width: 240px;
+        }
+        .beans-container p{
+            margin-top: -180px;
+            font-size: 20px;
+        }
 }
 
 
