@@ -328,11 +328,11 @@ footer a img{
     }
     .beans-container img{
         position: relative;
-        top: -20px;
-        width: 150px;
+        top: -130px;
+        width: 200px;
     }
     .beans-container p{
-        margin-top: -50px;
+        margin-top: -130px;
         font-size: 25px;
     }
 }
